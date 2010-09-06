@@ -3,9 +3,10 @@ h1. Trac Wiki to Textile
 This is a *very* rough start of a script to help convert Trac wiki syntax to Textile friendly syntax.
 
 To use:
-# Copy your @trac.db@ file into the same directory as the @convert.rb@ script.
-# Create a @wiki@ directory to hold the output files.
-# @./convert.rb@
+
+# ruby convert.rb http://example.com/trac/sample/wiki/SomePage
+
+then puts converted text to stdout.
 
 Open each file, copy and paste into GitHub.
 
